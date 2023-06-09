@@ -1,0 +1,2545 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Regular_Test_Execution_Report</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report dark">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Execution Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Nov 28, 2021 12:29:07</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_01</p>
+							<p class="duration text-sm">0h 0m 27s+133ms</p>
+							<span class="datetime">12:29:18 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_01</h5>
+									<span class='badge badge-success'>11.28.2021 12:29:18</span>
+									<span class='badge badge-danger'>11.28.2021 12:29:45</span>
+									<span class='badge badge-default'>0h 0m 27s+133ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:18</td>
+				<td>
+						[Start]: TC-01 & TC-02
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:18</td>
+				<td>
+						[Start]: clickOnSpecificButtonOnSignUpPage
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:24</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'Sign in' button</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:24</td>
+				<td>
+						[End]: clickOnSpecificButtonOnSignUpPage
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:24</td>
+				<td>
+						[Start]: setValueIntoSpecificField
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:25</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully entered value in the 'Input field locator#xpath=//label[normalize-space()= 'Email address']/..//input' field</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:25</td>
+				<td>
+						[End]: setValueIntoSpecificField
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:25</td>
+				<td>
+						[Start]: clickOnSpecificButtonOnSignUpPage
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'SubmitCreate' button</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: clickOnSpecificButtonOnSignUpPage
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'neesk' value in 'input[@id='customer_firstname']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'yznof' value in 'input[@id='customer_lastname']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'UFHKL' value in 'input[@id='passwd']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'JEZLKCNLMY' value in 'input[@id='address1']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'WEOVWBWYYO' value in 'input[@id='city']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:28</td>
+				<td>
+						[Start]: selectDropdownValueByTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:34</td>
+				<td>
+						<span class='badge white-text green'>[PASSED]  'Alaska' drop-down item was selected successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:34</td>
+				<td>
+						[End]: selectDropdownValueByTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:34</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:34</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'12345' value in 'input[@id='postcode']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:34</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:34</td>
+				<td>
+						[Start]: selectDropdownValueByTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:39</td>
+				<td>
+						<span class='badge white-text green'>[PASSED]  '-' drop-down item was selected successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[End]: selectDropdownValueByTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:39</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'96831' value in 'input[@id='phone']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:39</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'70517' value in 'input[@id='phone_mobile']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:39</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:45</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='submitAccount']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:45</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:45</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:45</td>
+				<td>
+						Attribute present status is 'true' for 'li[contains(text() ,'Country is invalid')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:45</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:45</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:45</td>
+				<td>
+						[End]: TC-01 & TC-02
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_01TC_02</p>
+							<p class="duration text-sm">0h 0m 29s+288ms</p>
+							<span class="datetime">12:29:48 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_01TC_02</h5>
+									<span class='badge badge-success'>11.28.2021 12:29:48</span>
+									<span class='badge badge-danger'>11.28.2021 12:30:17</span>
+									<span class='badge badge-default'>0h 0m 29s+288ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:48</td>
+				<td>
+						[Start]: TC-03
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:48</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='login']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'rsTest@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Test123!!' value in 'input[@id='passwd']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:29:54</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:00</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='SubmitLogin']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						Successfully logged into the application
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						Attribute present status is 'true' for 'a[@class='logout']' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:00</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[End]: TC-03
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[Start]: TC-05
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:00</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:06</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='logout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						Successfully logged off from the application
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						Attribute present status is 'true' for 'button[@id='SubmitCreate']' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:06</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[End]: TC-05
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[Start]: TC-04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:06</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'invalid@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:06</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:07</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'invalidPassword' value in 'input[@id='passwd']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:07</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:07</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:12</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='SubmitLogin']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:12</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:17</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:17</td>
+				<td>
+						Attribute present status is 'true' for 'li[contains(text() ,'Authentication failed.')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:17</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:17</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:17</td>
+				<td>
+						[End]: TC-04
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="10"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_01TC_02TC_03</p>
+							<p class="duration text-sm">0h 0m 39s+57ms</p>
+							<span class="datetime">12:30:21 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_01TC_02TC_03</h5>
+									<span class='badge badge-success'>11.28.2021 12:30:21</span>
+									<span class='badge badge-danger'>11.28.2021 12:31:00</span>
+									<span class='badge badge-default'>0h 0m 39s+57ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:21</td>
+				<td>
+						[Start]: TC-06
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:21</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:21</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Blouse' value in 'input[@id='search_query_top']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:21</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:21</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:27</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='submit_search']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						Attribute present status is 'true' for 'span[contains(text() ,'1 result has been found.')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:27</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[End]: TC-06
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[Start]: TC-07
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:27</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:33</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='login']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:33</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'rsTest@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:33</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Test123!!' value in 'input[@id='passwd']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:33</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:40</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='SubmitLogin']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:40</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:40</td>
+				<td>
+						Successfully logged into the application
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:40</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:48</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Dresses']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						Attribute present status is 'true' for 'span[contains(text() ,'Dresses')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:48</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[End]: TC-07
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[Start]: TC-08
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:48</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='product-name']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:54</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:54</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:57</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='open-comment-form']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:57</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Test Review' value in 'input[@id='comment_title']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:57</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'This is a test comment. Please ignore it.' value in 'textarea[@id='content']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:30:57</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:00</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='submitNewMessage']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:00</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:00</td>
+				<td>
+						[End]: TC-08
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="13"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_01TC_02TC_03TC_04</p>
+							<p class="duration text-sm">0h 3m 18s+235ms</p>
+							<span class="datetime">12:31:03 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_01TC_02TC_03TC_04</h5>
+									<span class='badge badge-success'>11.28.2021 12:31:03</span>
+									<span class='badge badge-danger'>11.28.2021 12:34:22</span>
+									<span class='badge badge-default'>0h 3m 18s+235ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:03</td>
+				<td>
+						[Start]: TC-09
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:03</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:09</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='login']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:09</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'rsTest@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:09</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Test123!!' value in 'input[@id='passwd']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:09</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:14</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@id='SubmitLogin']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:14</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:14</td>
+				<td>
+						Successfully logged into the application
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:14</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:21</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Dresses']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:21</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:21</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:27</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='product-name']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:27</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:27</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:30</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='btn btn-default btn-pinterest']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:30</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:32</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:32</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'test@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:32</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:32</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:32</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'Test Password' value in 'input[@id='password']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:32</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:34</td>
+				<td>
+						[End]: TC-09
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:34</td>
+				<td>
+						[Start]: TC-10
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:34</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:38</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='btn btn-default btn-google-plus']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:38</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:38</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:38</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'test@gmail.com' value in 'input[@id='identifierId']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:38</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:40</td>
+				<td>
+						[End]: TC-10
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:40</td>
+				<td>
+						[Strat]: TC-11
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:40</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:44</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='btn btn-default btn-facebook']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:44</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:44</td>
+				<td>
+						[Start]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:44</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully set'test@gmail.com' value in 'input[@id='email']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:44</td>
+				<td>
+						[End]: setValueInTagWithAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:46</td>
+				<td>
+						[End]: TC-11
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:46</td>
+				<td>
+						[Start]: TC-12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:46</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Women']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:54</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:54</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:59</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='product-name']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:59</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:31:59</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:03</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'span[normalize-space()='Add to cart']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:03</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:03</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:08</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:08</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:08</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:13</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:13</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:13</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:19</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processAddress']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:19</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:19</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:22</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'input[@id='cgv']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:22</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:22</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:28</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processCarrier']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:28</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:28</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:33</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Pay by check.']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:33</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:33</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:40</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='button btn btn-default button-medium']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:40</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:40</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:40</td>
+				<td>
+						Attribute present status is 'true' for 'p[contains(text() ,'Your order on My Store is complete.')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:40</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:40</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:40</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:46</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Dresses']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:46</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:46</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:51</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='product-name']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:51</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:51</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:54</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'span[normalize-space()='Add to cart']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:54</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:54</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:59</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:59</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:32:59</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:05</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:05</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:05</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:11</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processAddress']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:11</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:11</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:14</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'input[@id='cgv']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:14</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:14</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:19</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processCarrier']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:19</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:19</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:25</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Pay by check.']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:25</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:25</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:31</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='button btn btn-default button-medium']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:31</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:31</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:31</td>
+				<td>
+						Attribute present status is 'true' for 'p[contains(text() ,'Your order on My Store is complete.')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:31</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:31</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:31</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:36</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='T-shirts']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:36</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:36</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:41</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@class='product-name']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:41</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:41</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:44</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'span[normalize-space()='Add to cart']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:44</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:44</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:51</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:51</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:51</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:56</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Proceed to checkout']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:56</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:33:56</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:02</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processAddress']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:02</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:02</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:05</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'input[@id='cgv']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:05</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:05</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:11</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@name='processCarrier']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:11</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:11</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:16</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'a[@title='Pay by check.']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:16</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:16</td>
+				<td>
+						[Start]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:22</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Successfully clicked on the 'button[@class='button btn btn-default button-medium']' tag</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:22</td>
+				<td>
+						[End]: clickOnElementWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:22</td>
+				<td>
+						[Start]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:22</td>
+				<td>
+						Attribute present status is 'true' for 'p[contains(text() ,'Your order on My Store is complete.')]' tag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:22</td>
+				<td>
+						[End]: isElementExistWithTagAttribute
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:22</td>
+				<td>
+						<span class='badge white-text green'>[PASSED] Actual value: 'true' is same as expected value: 'true'</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>12:34:22</td>
+				<td>
+						[End]: TC-12
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'>
+						<b>4</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='29.352%'><b>86</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='70.648%'>207</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">4</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>100.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Nov 28, 2021 12:29:07</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 5m 14s+301ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Execute Remaining Steps On Failure</td>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<td>Max Number of Failures Per Test Case</td>
+								<td>30</td>
+							</tr>
+							<tr>
+								<td>Test Data Sheet Used From TestData.xlsx File</td>
+								<td>Test_Data_Sheet</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 4,
+		passParent: 4,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 293,
+		passEvents: 86,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 207,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "TC_01":27.133,"TC_01TC_02":29.288,"TC_01TC_02TC_03":39.057,"TC_01TC_02TC_03TC_04":198.235
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+js-string
+
+</script></body>
+</html>
